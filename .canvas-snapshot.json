@@ -4,7 +4,7 @@
     "title": "Introduction to React Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3264/quizzes/18300",
     "mobile_url": "https://learning.flatironschool.com/courses/3264/quizzes/18300?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-2-quiz-introduction-to-react\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-2-quiz-introduction-to-react/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.<br>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-2-quiz-introduction-to-react\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-2-quiz-introduction-to-react/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.<br>\nIf you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 10878,
     "show_correct_answers_last_attempt": true,
-    "version_number": 6,
+    "version_number": 7,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -102,7 +102,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/pages/what-is-react?module_item_id=132798\">What is React?</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9441,
+          "id": "9441",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct!</p>\n\n<p>React helps us write declarative code, which makes our code easier to understand.\nDeclarative code:</p>\n\n<ul>\n<li>Describes <em>what</em> a program should accomplish (or what the end result should be)</li>\n<li>Leaves the determination of <em>how</em> to get to the end result up to the program</li>\n</ul>",
@@ -110,7 +110,7 @@
           "html": "<p>Declarative</p>"
         },
         {
-          "id": 3286,
+          "id": "3286",
           "text": "",
           "comments": "",
           "comments_html": "<p>Yes!</p>\n\n<p>React encourages us to structure our applications as \"components\": the building\nblocks of our web page that handle their own data and UI logic, that can be\n\"composed\" together with other components to put together a complete app.</p>",
@@ -118,7 +118,7 @@
           "html": "<p>Component-Based</p>"
         },
         {
-          "id": 9032,
+          "id": "9032",
           "text": "",
           "comments": "",
           "comments_html": "<p>Nice One! One great thing about React is that it works in a few different\nenvironments. Once you learn the key concepts of working with React to create\nclient-side web applications, you can also more easily learn\n<a href=\"https://reactnative.dev/\">React Native</a> and write native mobile apps using\nReact, or use tools like <a href=\"https://nextjs.org/\">Next.js</a> and\n<a href=\"https://www.gatsbyjs.com/docs/\">Gatsby</a> to write server-rendered React.</p>",
@@ -126,7 +126,7 @@
           "html": "<p>Learn Once, Write Anywhere</p>"
         },
         {
-          "id": 5320,
+          "id": "5320",
           "text": "",
           "comments": "",
           "comments_html": "<p>While you can implement a MVVM architectural pattern in your React program, it\nisn't inherently a MVVM framework.</p>",
@@ -134,7 +134,7 @@
           "html": "<p>A Model-View-Viewmodel Framework</p>"
         },
         {
-          "id": 4962,
+          "id": "4962",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -216,22 +216,22 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/pages/what-is-react?module_item_id=132798\">What is React</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9676,
+          "id": "9676",
           "text": "Declarative Programming",
           "left": "Declarative Programming",
-          "right": "Describes what a program should accomplish (or what the end result should be),\nand leaves the determination of how to get to the end result up to the\nprogram.",
+          "right": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
           "comments": "",
           "comments_html": "",
-          "match_id": 9668
+          "match_id": 5266
         },
         {
-          "id": 5735,
+          "id": "5735",
           "text": "Imperative Programming",
           "left": "Imperative Programming",
-          "right": "Explicitly describes the actions a program should take, each step of the way,\nand describes how a program should go about doing those actions.",
+          "right": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
           "comments": "",
           "comments_html": "",
-          "match_id": 347
+          "match_id": 1110
         }
       ],
       "variables": null,
@@ -240,23 +240,19 @@
       "formula_decimal_places": null,
       "matches": [
         {
-          "text": "Describes what a program should accomplish (or what the end result should be),\nand leaves the determination of how to get to the end result up to the\nprogram.",
-          "match_id": 9668
+          "text": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
+          "match_id": 5266
         },
         {
-          "text": "Explicitly describes the actions a program should take, each step of the way,\nand describes how a program should go about doing those actions.",
-          "match_id": 347
-        },
-        {
-          "text": "Vaguely describes the actions a program should take, allows the programmer to write the actions in a separate program if they need or want.",
-          "match_id": 6857
+          "text": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
+          "match_id": 1110
         },
         {
           "text": "I don't know.",
-          "match_id": 5621
+          "match_id": 6164
         }
       ],
-      "matching_answer_incorrect_matches": "Vaguely describes the actions a program should take, allows the programmer to write the actions in a separate program if they need or want.\nI don't know."
+      "matching_answer_incorrect_matches": "I don't know."
     },
     {
       "id": 124110,
@@ -341,21 +337,21 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/pages/intro-to-npm?module_item_id=132796\">Intro to NPM</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2037,
+          "id": "2037",
           "text": "NPM",
           "comments": "",
           "comments_html": "<p>Nailed it!</p>",
           "weight": 100
         },
         {
-          "id": 2469,
+          "id": "2469",
           "text": "npm",
           "comments": "",
           "comments_html": "<p>Nailed it!</p>",
           "weight": 100
         },
         {
-          "id": 7454,
+          "id": "7454",
           "text": "Npm",
           "comments": "",
           "comments_html": "<p>Nailed it!</p>",
@@ -387,7 +383,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/pages/what-is-react?module_item_id=132798\">What is React?</a></li><li><a href=\"https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en\">React Dev Tools</a></li><li><a href=\"https://reactnative.dev/\">React Native</a></li><li><a href=\"https://nextjs.org/\">Next.js</a></li><li><a href=\"https://www.gatsbyjs.com/docs/\">Gatsby</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 8865,
+          "id": "8865",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct!</p>\n\n<p>React encourages us to structure our applications as \"components\": the building\nblocks of our web page that handle their own data and UI logic, that can be\n\"composed\" together with other components to put together a complete app.</p>",
@@ -395,7 +391,7 @@
           "html": "<p>React allows us to create reusable UI components.</p>"
         },
         {
-          "id": 2693,
+          "id": "2693",
           "text": "",
           "comments": "",
           "comments_html": "<p>Nailed it!</p>\n\n<p>By using <code>state</code>, we are able to change data in our applications without\nreloading the page!</p>",
@@ -403,7 +399,7 @@
           "html": "<p>React allows us to create applications that can change data, without reloading\nthe page.</p>"
         },
         {
-          "id": 6480,
+          "id": "6480",
           "text": "",
           "comments": "",
           "comments_html": "<p>100%!</p>\n\n<p>Check out the\n<a href=\"https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en\">React Dev Tools</a>\nso you can start debugging like a React pro!</p>",
@@ -411,7 +407,7 @@
           "html": "<p>React has a great set of developer tools that make it easier to view our\ncomponents in the browser and debug what's happening under the hood.</p>"
         },
         {
-          "id": 7883,
+          "id": "7883",
           "text": "",
           "comments": "",
           "comments_html": "<p>Nice One!</p>\n\n<p>One great thing about React is that it works in a few different environments.\nOnce you learn the key concepts of working with React to create client-side\nweb applications, you can also more easily learn\n<a href=\"https://reactnative.dev/\">React Native</a> and write native mobile apps using\nReact, or use tools like <a href=\"https://nextjs.org/\">Next.js</a> and\n<a href=\"https://www.gatsbyjs.com/docs/\">Gatsby</a> to write server-rendered React.</p>",
@@ -419,7 +415,7 @@
           "html": "<p>It works in many different environments allowing developers to build not only\nweb applications, but mobile applications and server-rendered React.</p>"
         },
         {
-          "id": 8491,
+          "id": "8491",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
