@@ -1,9 +1,9 @@
 {
   "quiz": {
-    "id": 18300,
+    "id": 43045,
     "title": "Introduction to React Quiz",
-    "html_url": "https://learning.flatironschool.com/courses/3264/quizzes/18300",
-    "mobile_url": "https://learning.flatironschool.com/courses/3264/quizzes/18300?force_user=1&persist_headless=1",
+    "html_url": "https://learning.flatironschool.com/courses/6667/quizzes/43045",
+    "mobile_url": "https://learning.flatironschool.com/courses/6667/quizzes/43045?force_user=1&persist_headless=1",
     "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-2-quiz-introduction-to-react\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-2-quiz-introduction-to-react/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.<br>\nIf you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
@@ -26,7 +26,7 @@
     "locked_for_user": true,
     "lock_info": {
       "missing_permission": "participate_as_student",
-      "asset_string": "quizzes:quiz_18300"
+      "asset_string": "quizzes:quiz_43045"
     },
     "lock_explanation": "This quiz is currently locked.",
     "hide_results": null,
@@ -45,7 +45,7 @@
     "require_lockdown_browser": false,
     "require_lockdown_browser_for_results": false,
     "require_lockdown_browser_monitor": false,
-    "lockdown_browser_monitor_data": null,
+    "lockdown_browser_monitor_data": "",
     "speed_grader_url": null,
     "permissions": {
       "manage": true,
@@ -60,86 +60,83 @@
       "review_grades": true,
       "view_answer_audits": true
     },
-    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3264/quizzes/18300/reports",
-    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3264/quizzes/18300/statistics",
-    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3264/quizzes/18300/submission_users/message",
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/6667/quizzes/43045/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/6667/quizzes/43045/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/6667/quizzes/43045/submission_users/message",
     "section_count": 1,
     "important_dates": false,
-    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3264/quizzes/18300/submission_versions",
-    "assignment_id": 124550,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/6667/quizzes/43045/submission_versions",
+    "assignment_id": 224921,
     "one_time_results": false,
     "only_visible_to_overrides": false,
-    "assignment_group_id": 10878,
+    "assignment_group_id": 19905,
     "show_correct_answers_last_attempt": true,
-    "version_number": 7,
+    "version_number": 3,
     "has_access_code": false,
     "post_to_sis": false,
-    "migration_id": null,
+    "migration_id": "gcb6c22a276a2ce6336b622f37bb645cf",
     "in_paced_course": false,
     "question_types": [
-      "multiple_answers_question",
-      "multiple_choice_question",
-      "matching_question",
-      "short_answer_question"
+
     ]
   },
   "questions": [
     {
-      "id": 124107,
-      "quiz_id": 18300,
+      "id": 291553,
+      "quiz_id": 43045,
       "quiz_group_id": null,
-      "assessment_question_id": 126347,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 1,
       "question_name": "Intro to React",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>Which of the following describe React as a library? Select all that apply.</p>",
+      "question_text": "Which of the following describe React as a library? Select all that apply.",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/pages/what-is-react?module_item_id=132798\">What is React?</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:What is React?",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/what-is-react?module_item_id=525596\">What is React?</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "9441",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Correct!</p>\n\n<p>React helps us write declarative code, which makes our code easier to understand.\nDeclarative code:</p>\n\n<ul>\n<li>Describes <em>what</em> a program should accomplish (or what the end result should be)</li>\n<li>Leaves the determination of <em>how</em> to get to the end result up to the program</li>\n</ul>",
-          "weight": 100.0,
-          "html": "<p>Declarative</p>"
+          "weight": 100,
+          "migration_id": "RESPONSE_9441",
+          "id": 9441,
+          "text": "Declarative",
+          "comments": "Correct! React helps us write declarative code, which makes our code easier to understand. Declarative code:  Describes what a program should accomplish (or what the end result should be) Leaves the determination of how to get to the end result up to the program",
+          "comments_html": "<p>Correct!</p>\n\n<p>React helps us write declarative code, which makes our code easier to understand.\nDeclarative code:</p>\n\n<ul>\n<li>Describes <em>what</em> a program should accomplish (or what the end result should be)</li>\n<li>Leaves the determination of <em>how</em> to get to the end result up to the program</li>\n</ul>"
         },
         {
-          "id": "3286",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Yes!</p>\n\n<p>React encourages us to structure our applications as \"components\": the building\nblocks of our web page that handle their own data and UI logic, that can be\n\"composed\" together with other components to put together a complete app.</p>",
-          "weight": 100.0,
-          "html": "<p>Component-Based</p>"
+          "weight": 100,
+          "migration_id": "RESPONSE_3286",
+          "id": 3286,
+          "text": "Component-Based",
+          "comments": "Yes! React encourages us to structure our applications as \"components\": the building blocks of our web page that handle their own data and UI logic, that can be \"composed\" together with other components to put together a complete app.",
+          "comments_html": "<p>Yes!</p>\n\n<p>React encourages us to structure our applications as \"components\": the building\nblocks of our web page that handle their own data and UI logic, that can be\n\"composed\" together with other components to put together a complete app.</p>"
         },
         {
-          "id": "9032",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Nice One! One great thing about React is that it works in a few different\nenvironments. Once you learn the key concepts of working with React to create\nclient-side web applications, you can also more easily learn\n<a href=\"https://reactnative.dev/\">React Native</a> and write native mobile apps using\nReact, or use tools like <a href=\"https://nextjs.org/\">Next.js</a> and\n<a href=\"https://www.gatsbyjs.com/docs/\">Gatsby</a> to write server-rendered React.</p>",
-          "weight": 100.0,
-          "html": "<p>Learn Once, Write Anywhere</p>"
+          "weight": 100,
+          "migration_id": "RESPONSE_9032",
+          "id": 9032,
+          "text": "Learn Once, Write Anywhere",
+          "comments": "Nice One! One great thing about React is that it works in a few different environments. Once you learn the key concepts of working with React to create client-side web applications, you can also more easily learn React Native and write native mobile apps using React, or use tools like Next.js and Gatsby to write server-rendered React.",
+          "comments_html": "Nice One! One great thing about React is that it works in a few different\nenvironments. Once you learn the key concepts of working with React to create\nclient-side web applications, you can also more easily learn\n<a href=\"https://reactnative.dev/\">React Native</a> and write native mobile apps using\nReact, or use tools like <a href=\"https://nextjs.org/\">Next.js</a> and\n<a href=\"https://www.gatsbyjs.com/docs/\">Gatsby</a> to write server-rendered React."
         },
         {
-          "id": "5320",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>While you can implement a MVVM architectural pattern in your React program, it\nisn't inherently a MVVM framework.</p>",
-          "weight": 0.0,
-          "html": "<p>A Model-View-Viewmodel Framework</p>"
+          "weight": 0,
+          "migration_id": "RESPONSE_5320",
+          "id": 5320,
+          "text": "A Model-View-Viewmodel Framework",
+          "comments": "While you can implement a MVVM architectural pattern in your React program, it isn't inherently a MVVM framework.",
+          "comments_html": "While you can implement a MVVM architectural pattern in your React program, it\nisn't inherently a MVVM framework."
         },
         {
-          "id": "4962",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "html": "<p>I don't know.</p>"
+          "weight": 0,
+          "migration_id": "RESPONSE_4962",
+          "id": 4962,
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -150,45 +147,47 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 124108,
-      "quiz_id": 18300,
+      "id": 291554,
+      "quiz_id": 43045,
       "quiz_group_id": null,
-      "assessment_question_id": 126348,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 2,
       "question_name": "Intro to React: Declarative Programming",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Of the code examples below, which uses <strong>declarative</strong> syntax?</p>",
+      "question_text": "Of the code examples below, which uses <strong>declarative</strong> syntax?",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/pages/what-is-react?module_item_id=132798\">What is React?</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:What is React?",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/what-is-react?module_item_id=525596\">What is React?</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_6375",
           "id": 6375,
-          "text": "",
+          "text": "const header = h1 className=\"main\"Hello from React!/h1; ReactDOM.render(header, document.querySelector(\"#container\"));",
           "html": "<div class=\"highlight\"><pre class=\"highlight jsx\"><code><span class=\"kd\">const</span> <span class=\"nx\">header</span> <span class=\"o\">=</span> <span class=\"p\">&lt;</span><span class=\"nt\">h1</span> <span class=\"na\">className</span><span class=\"p\">=</span><span class=\"s\">\"main\"</span><span class=\"p\">&gt;</span>Hello from React!<span class=\"p\">&lt;/</span><span class=\"nt\">h1</span><span class=\"p\">&gt;;</span>\n\n<span class=\"nx\">ReactDOM</span><span class=\"p\">.</span><span class=\"nx\">render</span><span class=\"p\">(</span><span class=\"nx\">header</span><span class=\"p\">,</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#container</span><span class=\"dl\">\"</span><span class=\"p\">));</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Correct!</p>\n\n<p>With declarative syntax, we are able to leave the determination of <em>how</em> to\nget to the end result up to the program! Therefore, we <em>don't</em> need to lay out\nevery step that needs to happen, like we do with imperative syntax.</p>",
-          "weight": 100.0
+          "comments": "Correct! With declarative syntax, we are able to leave the determination of how to get to the end result up to the program! Therefore, we don't need to lay out every step that needs to happen, like we do with imperative syntax.",
+          "comments_html": "<p>Correct!</p>\n\n<p>With declarative syntax, we are able to leave the determination of <em>how</em> to\nget to the end result up to the program! Therefore, we <em>don't</em> need to lay out\nevery step that needs to happen, like we do with imperative syntax.</p>"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_3728",
           "id": 3728,
-          "text": "",
+          "text": "const header = document.createElement(\"h1\"); header.textContent = \"Hi!\"; header.className = \"main\"; const container = document.querySelector(\"#container\"); container.append(header);",
           "html": "<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">const</span> <span class=\"nx\">header</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">createElement</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">h1</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"nx\">header</span><span class=\"p\">.</span><span class=\"nx\">textContent</span> <span class=\"o\">=</span> <span class=\"dl\">\"</span><span class=\"s2\">Hi!</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n<span class=\"nx\">header</span><span class=\"p\">.</span><span class=\"nx\">className</span> <span class=\"o\">=</span> <span class=\"dl\">\"</span><span class=\"s2\">main</span><span class=\"dl\">\"</span><span class=\"p\">;</span>\n<span class=\"kd\">const</span> <span class=\"nx\">container</span> <span class=\"o\">=</span> <span class=\"nb\">document</span><span class=\"p\">.</span><span class=\"nx\">querySelector</span><span class=\"p\">(</span><span class=\"dl\">\"</span><span class=\"s2\">#container</span><span class=\"dl\">\"</span><span class=\"p\">);</span>\n<span class=\"nx\">container</span><span class=\"p\">.</span><span class=\"nx\">append</span><span class=\"p\">(</span><span class=\"nx\">header</span><span class=\"p\">);</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>This code is more <strong>imperative</strong> than <strong>declarative</strong>, since we need to\nspecify each step of the DOM creation process in our code. With declarative\nsyntax, we are able to leave the determination of <em>how</em> to get to the end\nresult up to the program. Therefore, we <em>don't</em> need to lay out every step\nthat needs to happen, like we do with imperative syntax.</p>",
-          "weight": 0.0
+          "comments": "This code is more imperative than declarative, since we need to specify each step of the DOM creation process in our code. With declarative syntax, we are able to leave the determination of how to get to the end result up to the program. Therefore, we don't need to lay out every step that needs to happen, like we do with imperative syntax.",
+          "comments_html": "This code is more <strong>imperative</strong> than <strong>declarative</strong>, since we need to\nspecify each step of the DOM creation process in our code. With declarative\nsyntax, we are able to leave the determination of <em>how</em> to get to the end\nresult up to the program. Therefore, we <em>don't</em> need to lay out every step\nthat needs to happen, like we do with imperative syntax."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_2432",
           "id": 2432,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -199,39 +198,35 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 124109,
-      "quiz_id": 18300,
+      "id": 291555,
+      "quiz_id": 43045,
       "quiz_group_id": null,
-      "assessment_question_id": 128028,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 3,
       "question_name": "Intro to React: Declarative Programming",
       "question_type": "matching_question",
-      "question_text": "<p>Match the term with the correct description.</p>",
+      "question_text": "Match the term with the correct description.",
       "points_possible": 1.0,
-      "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "<p><span>Nailed it!</span></p>",
-      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/pages/what-is-react?module_item_id=132798\">What is React</a></li></ul><p></p>",
+      "correct_comments": "Nailed it!",
+      "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
+      "neutral_comments": "Source/s:What is React",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/what-is-react?module_item_id=525596\">What is React</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "9676",
           "text": "Declarative Programming",
+          "id": 9676,
+          "match_id": 5266,
           "left": "Declarative Programming",
-          "right": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 5266
+          "right": "Describes what the end result should be, not the specific actions or steps to\nget to that result."
         },
         {
-          "id": "5735",
           "text": "Imperative Programming",
+          "id": 5735,
+          "match_id": 1110,
           "left": "Imperative Programming",
-          "right": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 1110
+          "right": "Explicitly describes the specific actions or steps for getting to the end\nresult."
         }
       ],
       "variables": null,
@@ -240,76 +235,80 @@
       "formula_decimal_places": null,
       "matches": [
         {
-          "text": "Describes what the end result should be, not the specific actions or steps to\nget to that result.",
-          "match_id": 5266
+          "match_id": 5266,
+          "text": "Describes what the end result should be, not the specific actions or steps to\nget to that result."
         },
         {
-          "text": "Explicitly describes the specific actions or steps for getting to the end\nresult.",
-          "match_id": 1110
+          "match_id": 1110,
+          "text": "Explicitly describes the specific actions or steps for getting to the end\nresult."
         },
         {
-          "text": "I don't know.",
-          "match_id": 6164
+          "match_id": 6164,
+          "text": "I don't know."
         }
       ],
-      "matching_answer_incorrect_matches": "I don't know."
+      "matching_answer_incorrect_matches": null
     },
     {
-      "id": 124110,
-      "quiz_id": 18300,
+      "id": 291556,
+      "quiz_id": 43045,
       "quiz_group_id": null,
-      "assessment_question_id": 126346,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 4,
       "question_name": "Intro to React: NPM",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Which of the following commands will download all the packages listed in a\n<code>package.json</code> file?</p>",
+      "question_text": "Which of the following commands will download all the packages listed in a\n<code>package.json</code> file?",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/pages/intro-to-npm?module_item_id=132796\">Intro to NPM</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:Intro to NPM",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/intro-to-npm?module_item_id=525597\">Intro to NPM</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_3598",
           "id": 3598,
-          "text": "",
+          "text": "$ npm install",
           "html": "<div class=\"highlight\"><pre class=\"highlight console\"><code><span class=\"gp\">$</span><span class=\"w\"> </span>npm <span class=\"nb\">install</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Correct! We run <code>npm install</code> to download all the packages listed in the\n<code>package.json</code> file, and track which versions were installed.</p>",
-          "weight": 100.0
+          "comments": "Correct! We run npm install to download all the packages listed in the package.json file, and track which versions were installed.",
+          "comments_html": "Correct! We run <code>npm install</code> to download all the packages listed in the\n<code>package.json</code> file, and track which versions were installed."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_7748",
           "id": 7748,
-          "text": "",
+          "text": "$ npm init",
           "html": "<div class=\"highlight\"><pre class=\"highlight console\"><code><span class=\"gp\">$</span><span class=\"w\"> </span>npm init\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p><code>npm init</code> creates a new <code>package.json</code> file, which helps set up a\ndependencies for a new project.</p>",
-          "weight": 0.0
+          "comments": "npm init creates a new package.json file, which helps set up a dependencies for a new project.",
+          "comments_html": "<code>npm init</code> creates a new <code>package.json</code> file, which helps set up a\ndependencies for a new project."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_9649",
           "id": 9649,
-          "text": "",
+          "text": "$ npm start",
           "html": "<div class=\"highlight\"><pre class=\"highlight console\"><code><span class=\"gp\">$</span><span class=\"w\"> </span>npm start\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Typically, <code>npm start</code> is a command for running your application, like\nstarting the dev server for a React application.</p>",
-          "weight": 0.0
+          "comments": "Typically, npm start is a command for running your application, like starting the dev server for a React application.",
+          "comments_html": "Typically, <code>npm start</code> is a command for running your application, like\nstarting the dev server for a React application."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_5146",
           "id": 5146,
-          "text": "",
+          "text": "$ npm run",
           "html": "<div class=\"highlight\"><pre class=\"highlight console\"><code><span class=\"gp\">$</span><span class=\"w\"> </span>npm run\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>The <code>npm run</code> command lets you run custom scripts defined in your\n<code>package.json</code> file.</p>",
-          "weight": 0.0
+          "comments": "The npm run command lets you run custom scripts defined in your package.json file.",
+          "comments_html": "The <code>npm run</code> command lets you run custom scripts defined in your\n<code>package.json</code> file."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_940",
           "id": 940,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -320,42 +319,39 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 124111,
-      "quiz_id": 18300,
+      "id": 291557,
+      "quiz_id": 43045,
       "quiz_group_id": null,
-      "assessment_question_id": 128029,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 5,
       "question_name": "Intro to React: NPM",
       "question_type": "short_answer_question",
-      "question_text": "<p>___ is a package manager for JavaScript that works with your JavaScript\nproject directories via the command line, allowing you to install packages of\npreexisting code.</p>",
+      "question_text": "___ is a package manager for JavaScript that works with your JavaScript\nproject directories via the command line, allowing you to install packages of\npreexisting code.",
       "points_possible": 1.0,
       "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/pages/intro-to-npm?module_item_id=132796\">Intro to NPM</a></li></ul><p></p>",
+      "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
+      "neutral_comments": "Source/s:Intro to NPM",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/intro-to-npm?module_item_id=525597\">Intro to NPM</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "2037",
           "text": "NPM",
-          "comments": "",
-          "comments_html": "<p>Nailed it!</p>",
-          "weight": 100
+          "weight": 100,
+          "comments": "Nailed it!",
+          "id": 2037
         },
         {
-          "id": "2469",
           "text": "npm",
-          "comments": "",
-          "comments_html": "<p>Nailed it!</p>",
-          "weight": 100
+          "weight": 100,
+          "comments": "Nailed it!",
+          "id": 2469
         },
         {
-          "id": "7454",
           "text": "Npm",
-          "comments": "",
-          "comments_html": "<p>Nailed it!</p>",
-          "weight": 100
+          "weight": 100,
+          "comments": "Nailed it!",
+          "id": 7454
         }
       ],
       "variables": null,
@@ -366,61 +362,64 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "id": 124112,
-      "quiz_id": 18300,
+      "id": 291558,
+      "quiz_id": 43045,
       "quiz_group_id": null,
-      "assessment_question_id": 128030,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 6,
       "question_name": "Intro to React",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>Why is React useful for developers? Select all that apply.</p>",
+      "question_text": "Why is React useful for developers? Select all that apply.",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3264/pages/what-is-react?module_item_id=132798\">What is React?</a></li><li><a href=\"https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en\">React Dev Tools</a></li><li><a href=\"https://reactnative.dev/\">React Native</a></li><li><a href=\"https://nextjs.org/\">Next.js</a></li><li><a href=\"https://www.gatsbyjs.com/docs/\">Gatsby</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:What is React?React Dev ToolsReact NativeNext.jsGatsby",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/6667/pages/what-is-react?module_item_id=525596\">What is React?</a></li><li><a href=\"https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en\">React Dev Tools</a></li><li><a href=\"https://reactnative.dev/\">React Native</a></li><li><a href=\"https://nextjs.org/\">Next.js</a></li><li><a href=\"https://www.gatsbyjs.com/docs/\">Gatsby</a></li></ul><p></p>",
       "answers": [
         {
-          "id": "8865",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Correct!</p>\n\n<p>React encourages us to structure our applications as \"components\": the building\nblocks of our web page that handle their own data and UI logic, that can be\n\"composed\" together with other components to put together a complete app.</p>",
-          "weight": 100.0,
-          "html": "<p>React allows us to create reusable UI components.</p>"
+          "weight": 100,
+          "migration_id": "RESPONSE_8865",
+          "id": 8865,
+          "text": "React allows us to create reusable UI components.",
+          "comments": "Correct! React encourages us to structure our applications as \"components\": the building blocks of our web page that handle their own data and UI logic, that can be \"composed\" together with other components to put together a complete app.",
+          "comments_html": "<p>Correct!</p>\n\n<p>React encourages us to structure our applications as \"components\": the building\nblocks of our web page that handle their own data and UI logic, that can be\n\"composed\" together with other components to put together a complete app.</p>"
         },
         {
-          "id": "2693",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Nailed it!</p>\n\n<p>By using <code>state</code>, we are able to change data in our applications without\nreloading the page!</p>",
-          "weight": 100.0,
-          "html": "<p>React allows us to create applications that can change data, without reloading\nthe page.</p>"
+          "weight": 100,
+          "migration_id": "RESPONSE_2693",
+          "id": 2693,
+          "text": "React allows us to create applications that can change data, without reloading the page.",
+          "html": "React allows us to create applications that can change data, without reloading\nthe page.",
+          "comments": "Nailed it! By using state, we are able to change data in our applications without reloading the page!",
+          "comments_html": "<p>Nailed it!</p>\n\n<p>By using <code>state</code>, we are able to change data in our applications without\nreloading the page!</p>"
         },
         {
-          "id": "6480",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>100%!</p>\n\n<p>Check out the\n<a href=\"https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en\">React Dev Tools</a>\nso you can start debugging like a React pro!</p>",
-          "weight": 100.0,
-          "html": "<p>React has a great set of developer tools that make it easier to view our\ncomponents in the browser and debug what's happening under the hood.</p>"
+          "weight": 100,
+          "migration_id": "RESPONSE_6480",
+          "id": 6480,
+          "text": "React has a great set of developer tools that make it easier to view our components in the browser and debug what's happening under the hood.",
+          "html": "React has a great set of developer tools that make it easier to view our\ncomponents in the browser and debug what's happening under the hood.",
+          "comments": "100%! Check out the React Dev Tools so you can start debugging like a React pro!",
+          "comments_html": "<p>100%!</p>\n\n<p>Check out the\n<a href=\"https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en\">React Dev Tools</a>\nso you can start debugging like a React pro!</p>"
         },
         {
-          "id": "7883",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Nice One!</p>\n\n<p>One great thing about React is that it works in a few different environments.\nOnce you learn the key concepts of working with React to create client-side\nweb applications, you can also more easily learn\n<a href=\"https://reactnative.dev/\">React Native</a> and write native mobile apps using\nReact, or use tools like <a href=\"https://nextjs.org/\">Next.js</a> and\n<a href=\"https://www.gatsbyjs.com/docs/\">Gatsby</a> to write server-rendered React.</p>",
-          "weight": 100.0,
-          "html": "<p>It works in many different environments allowing developers to build not only\nweb applications, but mobile applications and server-rendered React.</p>"
+          "weight": 100,
+          "migration_id": "RESPONSE_7883",
+          "id": 7883,
+          "text": "It works in many different environments allowing developers to build not only web applications, but mobile applications and server-rendered React.",
+          "html": "It works in many different environments allowing developers to build not only\nweb applications, but mobile applications and server-rendered React.",
+          "comments": "Nice One! One great thing about React is that it works in a few different environments. Once you learn the key concepts of working with React to create client-side web applications, you can also more easily learn React Native and write native mobile apps using React, or use tools like Next.js and Gatsby to write server-rendered React.",
+          "comments_html": "<p>Nice One!</p>\n\n<p>One great thing about React is that it works in a few different environments.\nOnce you learn the key concepts of working with React to create client-side\nweb applications, you can also more easily learn\n<a href=\"https://reactnative.dev/\">React Native</a> and write native mobile apps using\nReact, or use tools like <a href=\"https://nextjs.org/\">Next.js</a> and\n<a href=\"https://www.gatsbyjs.com/docs/\">Gatsby</a> to write server-rendered React.</p>"
         },
         {
-          "id": "8491",
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "html": "<p>I don't know.</p>"
+          "weight": 0,
+          "migration_id": "RESPONSE_8491",
+          "id": 8491,
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
